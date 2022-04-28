@@ -17,7 +17,8 @@ e.g. run_feats.py is dependent on sequence_features.py and data.py
 
 these are imported in the header:
 
-import sequence_features as sf import mol_evol as me
+e.g. from sequence_features import SequenceFeatures
+
 
 Make sure you have python2.7 or higher versions installed on your system
 
