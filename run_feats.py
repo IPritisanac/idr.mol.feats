@@ -6,7 +6,7 @@ import re
 import time
 import numpy as np # IP 14/9/2020
 import scipy.stats
-from data_feats import ParseInput
+from data import ParseInput
 from sequence_features import SequenceFeatures
 
 class Alignment():
