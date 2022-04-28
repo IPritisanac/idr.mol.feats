@@ -1,11 +1,5 @@
 #	EXAMPLE INPUT FILE
 motifs_file	PARAM_FILES/MOTIFS.txt
-# precomputed expected N matches given IDR aa freq
-#exp_motifs_n_file PARAM_FILES/MOTIFS_EXPECTED_N_MATCHES.txt
 repeats_file	PARAM_FILES/repeats.txt
-#aa_freq_file  PARAM_FILES/AA_COMPOSITION.txt
-align_dir ../DATA/ORTHOLOGS_SEQ_ALN_IDR/2/
-#DEFAULTS
-#REF_NUM 0
-#set to a string or a substring of a reference sequence name, e.g., HUMAN
-#REF_NAME HUMAN
+#WILL READ ANY FILE WITH EXTENSION *.fa or *.fasta IN ALIGN_DIR DIRECTORY
+align_dir DATA/
